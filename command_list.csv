@@ -1,0 +1,59 @@
+   98   -c&&rm~/.bash_history
+   99  ls
+  100  cs ..
+  101  ls
+  102  cs ..
+  103  cd ..
+  104  ls
+  105  git status
+  106  ls
+  107  cd ..
+  108  ls
+  109  git status
+  110  cd my_projekts
+  111  git status
+  112  git branch
+  113  git log
+  114  cd ..
+  115  git log
+  116  git clone https://github.com/angel979899/HW_10.git
+  117  ls
+  118  cd HW_10
+  119  ls
+  120  touch text_ignore.txt
+  121  ls
+  122  nano .gitignore
+  123  git status
+  124  git add
+  125  git commit -m "New txt file and put it to gitingore"
+  126  git add
+  127  git add text_ignore.txt
+  128  git add .gitigni
+  129  git add .gitignore
+  130  git status
+  131  git commit -m "New txt file and put it to gitingore"
+  132  git status
+  133  touch main_test.txt
+  134  ls
+  135  git add main_test.txt
+  136  git status
+  137  git commit -m "New txt file main_test.txt"
+  138  git checkout develop
+  139  git branch
+  140  git checkout -b develop
+  141* 
+  142  touch develop_test.txt
+  143  git add develop_test.txt
+  144  git status
+  145  git commit -m "New txt file develop_test.txt"
+  146  nano develop_test.txt
+  147  git status
+  148  git add develop_test.txt
+  149  git commit -m "Changed txt file develop_test.txt"
+  150  git checkout main
+  151  git branch
+  152  git marge develop
+  153  git merge develop
+  154  git branch
+  155  git log
+  156  history > command_list.csv
